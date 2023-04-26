@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.tetratau.testmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BootstrapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "toki-example-mod-refmap.json"
+}
