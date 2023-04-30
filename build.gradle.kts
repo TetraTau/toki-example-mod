@@ -14,7 +14,7 @@ java {
 
 repositories {
     maven("https://maven.fabricmc.net/")
-    mavenLocal()
+    maven("https://mvn.tetratau.net/releases/")
 }
 
 dependencies {
