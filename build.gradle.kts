@@ -18,11 +18,11 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.19.3-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.19.4-R0.1-SNAPSHOT")
     // paperweight.foliaDevBundle("1.19.4-R0.1-SNAPSHOT")
     // paperweight.devBundle("com.example.paperfork", "1.19.4-R0.1-SNAPSHOT")
-    api("net.fabricmc:fabric-loader:0.14.14")
-    api("net.fabricmc:sponge-mixin:0.11.4+mixin.0.8.5") {
+    api("net.fabricmc:fabric-loader:0.14.19")
+    api("net.fabricmc:sponge-mixin:0.12.4+mixin.0.8.5") {
         exclude(module = "launchwrapper")
         exclude(module = "guava")
     }
