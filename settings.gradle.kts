@@ -1,7 +1,7 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        mavenLocal()
+        maven("https://mvn.tetratau.net/releases/")
     }
 }
 
